@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+.container{
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.box{
+    height: 68vh;
+    width: 96vh;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: row;
+    border-radius: 11px;
+}
+img{
+    height: 68vh;
+    width: 48vh;
+    border-radius: 11px 0 0 11px;
+}
+.text{
+    padding: 20px 46px;
+    display: inline;
+}
+.box2{
+    font-family: 'Montserrat', sans-serif;;
+    font-size:  14px; 
+    font-weight: 500;
+    letter-spacing: 5px;
+    color:hsl(228, 12%, 48%) ;
+}
+.box3{
+    font-family:'Fraunces', serif;
+    font-size:  18px;
+    font-weight: 700;
+}
+.box4{
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 15px;
+    line-height: 1.7;
+    font-weight: 700;
+    color:hsl(228, 12%, 48%) ;
+}
+.cost{
+    display: grid;
+    grid-template-columns:auto auto;
+    padding-bottom: 22px;
+}
+   
+.cost1{
+    font-size: 35px;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+}
+.cost2{
+    padding-top: 12px;
+    text-decoration: line-through; 
+    font-family: 'Montserrat', sans-serif ;
+    color: hsl(228, 12%, 48%);
+    
+}
+.button{
+    background-color: hsl(158, 36%, 37%) ;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif ;
+    border-radius: 11px;
+}
+svg{
+    padding: 16px;
+    padding-left: 10px;
+    height: 5vh;
+}
+   
+
+
+
+
+
